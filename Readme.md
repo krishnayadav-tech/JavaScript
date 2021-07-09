@@ -4,6 +4,11 @@ This is my new article about Promise
 - Callback 
 - Promises
 - async/await 
+
+![JavaScript Logo](https://images.unsplash.com/photo-1613490900233-141c5560d75d?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=sudharshan-tk-mM9vVJ2oDeI-unsplash.jpg&w=1920)
+
+
+
 ## Getting started with Promise 
 ```js
 let promise = new Promise((res,rej)=>{
@@ -74,4 +79,8 @@ function doSomeTask(){
 So this is how JavaScript works behind the scence in async/await function
 
 Thank you
+<yadav_krishna@outlook.in>
+[krishnayadav.tech](https://krishnayadav.tech "portfolio")
 #### Krishna Yadav
+
+
