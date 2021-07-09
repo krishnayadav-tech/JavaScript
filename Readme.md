@@ -1,13 +1,17 @@
 # All about promises in JS
-This is my new vlog about Promise 
+This is my new article about Promise 
+##### Couple of way to execute async task 
+- Callback 
+- Promises
+- async/await 
 ## Getting started with Promise 
 ```js
 let promise = new Promise((res,rej)=>{
     res("Resolved")
 })
 ```
-as soon as Promise object will created the call back function that you passed will start executing.
-And you can actually set two callback function for resolve and reject.
+as soon as Promise object will created the call back function that you passed in constructor will start executing.
+And you can actually set two callback function for resolve and reject using then and catch provided by promise object.
 for eg
 
 ```js
