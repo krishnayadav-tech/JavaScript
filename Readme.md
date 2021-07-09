@@ -40,6 +40,7 @@ for example
 ```js
 async function doSomeTask(){
     let data = await axios.get("https://dog.ceo/api/breeds/list/all");
+    console.log(data);
     let data2 = await axios.get("https://dog.ceo/api/breeds/list/all");
     console.log(data);
     console.log(data2);
@@ -55,6 +56,7 @@ function doSomeTask(){
     axios.get("https://dog.ceo/api/breeds/list/all").
     then(res=>{
         let data = res;
+        console.log(data);
         axios.get("https://dog.ceo/api/breeds/list/all")
         .then(res=>{
             let data2 = res;
